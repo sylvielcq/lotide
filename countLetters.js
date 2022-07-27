@@ -15,7 +15,7 @@ const countLetters = function(string) {
   for (const char of string) {
     // If char isn't a space (as we do not want to count those)
     if (char !== " ") {
-      // if we already encounted the char and it appears as property in the results object...
+      // if we already encountered the char and it appears as property in the results object...
       if (results[char]) {
         // increment the counter for the char
         results[char] += 1;

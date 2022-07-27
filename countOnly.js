@@ -13,7 +13,7 @@ const assertEqual = function(actual, expected) {
 const countOnly = function(allItems, itemsToCount) {
   // Declare a new empty object called "results"
   const results = {};
-  // Loop over all the times in the array
+  // Loop over all the items in the array
   for (const item of allItems) {
     // If the item is found in the itemsToCount object...
     if (itemsToCount[item]) {
@@ -29,7 +29,7 @@ const countOnly = function(allItems, itemsToCount) {
     }
   }
   return results;
-}
+};
 
 // TEST CODE
 const firstNames = [

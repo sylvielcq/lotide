@@ -1,7 +1,8 @@
 // Require the assertEqual function from its original file
 const assertEqual = require('../assertEqual');
 
-// TEST CODE FOR ASSERTEQUAL
+
+// // OLD TEST CODE FOR ASSERTEQUAL
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual("Bootcamp", "Bootcamp");
 assertEqual(1, 1);

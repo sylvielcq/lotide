@@ -1,15 +1,5 @@
-// eqArrays function that compares 2 arrays.
-const eqArrays = function(arr1, arr2) {
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    }
-  }
-  return true;
-};
+// Require the head function from its original file
+const eqArrays = require('../eqArrays');
 
 
 // assertArraysEqual function that asserts that 2 arrays are equal.
@@ -22,3 +12,4 @@ const assertArraysEqual = function(arr1, arr2) {
 };
 
 
+module.exports = assertArraysEqual;

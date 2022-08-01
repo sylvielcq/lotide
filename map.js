@@ -41,3 +41,6 @@ const words = ["ground", "control", "to", "major", "tom"];
 assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']);
 assertArraysEqual(map(words, word => word[1]), ["r", "o", "o", "a", "o"]);
 assertArraysEqual(map(words, word => word + "z"), ["groundz", "controlz", "toz", "majorz", "tomz"]);
+
+
+module.exports = map;

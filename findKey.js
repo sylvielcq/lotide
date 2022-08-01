@@ -37,3 +37,6 @@ assertEqual(test1, "noma");
 const car = {type: "Fiat", model: "500", color:"white"};
 const test2 = findKey(car, x => x === "white");
 assertEqual(test2, "color");
+
+
+module.exports = findKey;

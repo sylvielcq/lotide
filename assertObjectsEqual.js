@@ -71,3 +71,6 @@ const testObject3 = {
 
 assertObjectsEqual(testObject1, testObject2);
 assertObjectsEqual(testObject1, testObject3);
+
+
+module.exports = assertObjectsEqual;

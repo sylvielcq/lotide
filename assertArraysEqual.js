@@ -1,5 +1,5 @@
 // Require the head function from its original file
-const eqArrays = require('../eqArrays');
+const eqArrays = require('./eqArrays');
 
 
 // assertArraysEqual function that asserts that 2 arrays are equal.

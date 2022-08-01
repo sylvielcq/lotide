@@ -15,8 +15,6 @@ describe("#head", () => {
 
 
 
-
-
 // OLD TEST CODE FOR HEAD FUNCTION
 
 // Require the assertEqual function from its original file

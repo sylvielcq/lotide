@@ -21,8 +21,6 @@ describe("#middle", () => {
 
 
 
-
-
 /*
 // OLD TEST CODE FOR MIDDLE
 

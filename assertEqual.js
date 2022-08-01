@@ -1,4 +1,6 @@
-// FUNCTION
+// ACTUAL FUNCTION: ASSERTEQUAL
+// Compares 2 values (string or numbers)
+// Prints out a message telling us if they match or not.
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -7,8 +9,6 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual("Bootcamp", "Bootcamp");
-assertEqual(1, 1);
-assertEqual(-1, 1);
+
+
+module.exports = assertEqual;
